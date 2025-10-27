@@ -1,0 +1,253 @@
+%-------------------------
+% Resume in LaTeX
+% Author: Vaishanth
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,16pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% \usepackage[T1]{fontenc}
+% \usepackage{cochineal}
+% \usepackage{fourier}
+
+% serif
+\usepackage{charter}
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\Large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+% Ensure that generated PDF is machine-readable/ATS-parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSingleSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, itemsep=4pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------\usepackage{fontspec}
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%----------HEADING----------
+
+\begin{center}
+    {\huge Ayushman Pati} \\ \vspace{2pt} 
+    {+91 9040024094 / 8480532468(WHATSAPP)} ~ 
+    \small{-}
+    \href{mailto:ayushmanctc04@gmail.com}{\color{blue}{ayushmanctc04@gmail.com}} ~ 
+    \small{-}
+    \href{https://www.linkedin.com/in/ayushman-pati-3a2648251/}{\color{blue}{linkedin.com/in/ayushman-pati-3a2648251}}  ~
+    \small{-}
+    \href{https://github.com/ayushmanctc04-code}{\color{blue}{https://github.com/ayushmanctc04-code}}
+    \vspace{-7pt}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{\texorpdfstring{\color{airforceblue}EDUCATION}{EDUCATION}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Sri Sri University, Cuttack}  
+      
+      {B.Tech Computer Science}{Sep 2022 - Jul 2026}
+    \vspace{-4pt}
+  \resumeSubHeadingListEnd
+  \vspace{-10pt}
+
+ %-----------EXPERIENCE-----------
+\section{\color{airforceblue}PROFESSIONAL SUMMARY}
+  \resumeSubHeadingListStart
+\resumeItemListStart
+    \resumeItem{\normalsize{B.Tech Computer Science student with specialization in Artificial Intelligence and Machine Learning (AIML).} }
+    \vspace{0.5pt}
+    \resumeItem{\normalsize{Strong foundation in IT, programming, and emerging technologies.} }
+    \vspace{0.5pt}
+    \resumeItem{\normalsize{Proficient in Python, Django, and web development for building functional applications.} }
+    \vspace{0.5pt}
+    \resumeItem{\normalsize{Skilled in UI/UX design using Figma to create intuitive and visually appealing interfaces.} }
+    \vspace{0.5pt}
+    \resumeItem{\normalsize{Actively exploring Generative AI, AI prompt engineering, and AI entrepreneurship.} }
+    \vspace{0.5pt}
+    \resumeItem{\normalsize{Passionate about innovation, problem-solving, and the intersection of technology and business.} }
+    \vspace{0.5pt}
+    \resumeItem{\normalsize{Adaptable and committed to continuous learning in dynamic environments.} }
+    \vspace{0.5pt}
+    \resumeItem{\normalsize{Eager to contribute both technical and creative expertise to impactful projects. } }   
+  
+\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+  \vspace{-12pt}
+
+ %-----------PROJECTS-----------
+\section{\color{airforceblue}PROFESSIONAL EXPERIENCE}    
+    \resumeItemListStart
+    \vspace{0.5pt}
+    \resumeItem{\normalsize{Developed the official website for Adyasha Enterprises (Freelance):- Developed a responsive and visually appealing website using HTML, CSS, and JavaScript. Focused on clean UI design and smooth user experience. Implemented interactive elements and ensured cross-device compatibility. Collaborated with the client to align the website with their brand identity and business goals.} }
+    \vspace{-5pt}
+    \resumeItem{\normalsize{Designed the brochure for Orion 2K23:- Designed an engaging and informative event brochure for Orion 2K23 using graphic design tools. Focused on a clean layout, appealing visuals, and consistent branding. Coordinated with event organizers to effectively present event details, schedules, and themes.} }
+    \vspace{-5pt}
+    \resumeItem{\normalsize{Built the website for IT Conclave 2025, Sri Sri University:- Built the official event website using HTML, CSS, and JavaScript. Delivered a modern, responsive design highlighting event information, speaker profiles, and registration features. Ensured a seamless user experience and integrated interactive components to enhance engagement.} }
+    \vspace{-5pt}
+    \resumeItem{\textbf{Intern – Delivery Department, PRODAPT( 10th JUNE,2025 - 10th AUGUST,2025):-}}{\normalsize{Worked on real-time projects as part of the Delivery team, contributing to internal operations and service automation:} {\textbf{AMC Services Management: }} {\normalsize{Developed tools to streamline Annual Maintenance Contract (AMC) tracking and support.}} {\textbf{Shuttle Services App: }}{\normalsize{Built an internal application to manage employee shuttle bookings, optimize routes, and automate seat allocation.}}{\textbf{Gatepass Management System:}}{\normalsize{ Designed a system to log and monitor product movements through security gates, ensuring traceability and approval flow.Collaborated with cross-functional teams and applied agile methodologies to deliver efficient and user-focused solutions.}}}
+    \vspace{-5pt}
+\resumeItemListEnd
+
+  \vspace{-7pt}
+ \section{\color{airforceblue}TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Programming Languages:}}{ \normalsize{JavaScript, Python, C++, Java}} \\
+      \vspace{1.2pt}
+      
+     \textbf{\normalsize{Libraries and Tools:}}{ \normalsize{React, Django,  Git, Node.js}} \\
+      \vspace{1.2pt}
+      
+     \textbf{\normalsize{Database:}}{ \normalsize{ MongoDB, MySQL}} \\
+      \vspace{1.2pt}
+
+     \textbf{\normalsize{Design and UX}}{ \normalsize{ Figma, UI/UX Design}} \\
+      \vspace{1.2pt}
+      
+     \textbf{\normalsize{AI and Emerging Tech}}{ \normalsize{Generative AI, AI Prompt Engineering, AI Entrepreneurship}}\\
+     \vspace{1.2pt}
+     
+     % copy and paste above textbf block to add more 
+     }}
+ \end{itemize}
+
+%-----------ACHIEVEMENTS-----------
+\section{\color{airforceblue}CERTIFICATIONS}
+    
+  \resumeItemListStart
+
+    \resumeItem{\normalsize{\textbf{3rd Place – Poster Presentation, IBM ICE Day} } }
+    \vspace{-5pt}
+
+    \resumeItem{\normalsize{\textbf{AI Tools and ChatGPT – Masters Workshop}}}
+    \vspace{-5pt}
+
+    \resumeItem{\normalsize{\textbf{Participation in HR Symposium on "Digital Transformation and Agile HR"}}}
+    \vspace{-5pt}
+
+    \resumeItem{\normalsize{\textbf{AI for Entrepreneurship – NITI Aayog}}}
+    \vspace{-5pt}
+
+  \resumeItemListEnd 
+      
+\vspace{-8pt}
+
+\end{document}
